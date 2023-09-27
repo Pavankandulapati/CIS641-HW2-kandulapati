@@ -8,5 +8,5 @@
 I come from computer science background, And I have one year experience in C and Java programming along with pro*C. I have some basic knowledge in CVS repository. 
 
 ## Link to Favourite meme
-![meme](https://www.google.com/url?sa=i&url=https%3A%2F%2Fthechive.com%2Fhumor%2Fthese-computer-memes-are-technically-funny-27-photos%2F&psig=AOvVaw1XmDIbSgy5HzoSA-sR-350&ust=1695939800409000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCNjtw5zqy4EDFQAAAAAdAAAAABAE)
+![meme](https://thechive.com/wp-content/uploads/2023/06/Programmming-Jokes-And-MeMes-Facebook-15.jpg?attachment_cache_bust=4427538&quality=85&strip=info&w=400)
 
