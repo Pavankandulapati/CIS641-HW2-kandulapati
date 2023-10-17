@@ -1,22 +1,20 @@
-/* Add this to your existing style.css or create a new one */
-
 body {
-    background: #dddbdb; /* Set your preferred background color */
-    color: #333; /* Text color */
-    font-family: Arial, sans-serif; /* Specify your preferred font */
+    background: #dddbdb; 
+    color: #333; 
+    font-family: Arial, sans-serif; 
     margin: 20px;
     padding: 20px;
     line-height: 1.6;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    justify-content: center; 
+    align-items: center; 
     min-height: 100vh;
     border: 10px solid #3c78a0;
 }
 
 .container {
-    max-width: 800px; /* Adjust the maximum width to your preference */
-    margin: 0 auto; /* Center the content horizontally */
-    padding-right: 20px; /* Add padding to the right side to create space */
+    max-width: 800px;
+    margin: 0 auto; 
+    padding-right: 20px; 
 }
 
 header {
@@ -91,12 +89,8 @@ footer a {
 }
 
 footer a:hover {
-    color: #3498db; /* Change the link color on hover */
+    color: #3498db; 
 }
-
-/* Add this to your existing style.css or create a new one */
-
-/* ... (Previous CSS styles remain the same) */
 
 /* About Section Styles */
 #about {
@@ -172,7 +166,6 @@ footer a:hover {
 }
 
 /* Contact Section Styles */
-/* Contact Me Section */
 #contact {
     background-color: #f9f9f9;
     padding: 20px;
@@ -205,16 +198,9 @@ footer a:hover {
 .no-link {
     text-decoration: none;
     color: #3498db;
-    cursor: default; /* Add this line to remove the link cursor */
+    cursor: default; 
 }
 
-
-/* ... (Footer Styles remain the same) */
-
-
-/* Add this to your existing style.css or create a new one */
-
-/* ... (Previous CSS styles remain the same) */
 
 /* Navigation Styles */
 nav ul {
@@ -232,14 +218,12 @@ nav li {
 nav a {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #4CAF50; /* Set your preferred background color */
-    color: #fff; /* Text color */
+    background-color: #4CAF50; 
+    color: #fff; 
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #45a049; /* Change the background color on hover */
+    background-color: #45a049; 
 }
-
-/* ... (Rest of your styles remain the same) */
