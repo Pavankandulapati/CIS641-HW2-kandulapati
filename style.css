@@ -1,62 +1,245 @@
-/* Reset some default styles */
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
+/* Add this to your existing style.css or create a new one */
+
+body {
+    background: #dddbdb; /* Set your preferred background color */
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Specify your preferred font */
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh;
+    border: 10px solid #3c78a0;
 }
 
-/* Basic styling */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
-    line-height: 1.6;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 20px;
+.container {
+    max-width: 800px; /* Adjust the maximum width to your preference */
+    margin: 0 auto; /* Center the content horizontally */
+    padding-right: 20px; /* Add padding to the right side to create space */
 }
 
 header {
-    text-align: center;
-    background-color: #007acc;
+    background-image: url('https://storage.prompt-hunt.workers.dev/clhqbzrmc000ll508g8vn8mem_1');
+    background-size: cover;
     color: #fff;
-    padding: 20px;
+    text-align: center;
+    padding: 50px 0;
 }
 
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 24px;
+}
+
+/* About Section Styles */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.about-image img {
+    max-width: 50%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.about-text {
+    text-align: justify;
+}
+
+/* Project and Contact Section Styles */
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(to bottom right, #eaeaed, #2151f0);
+    color: #090000;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 93.4%;
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #3498db; /* Change the link color on hover */
+}
+
+/* Add this to your existing style.css or create a new one */
+
+/* ... (Previous CSS styles remain the same) */
+
+/* About Section Styles */
+#about {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.about-image img {
+    max-width: 50%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Project Section Styles */
+#projects {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+.project h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.project p {
+    font-size: 16px;
+    color: #555;
+}
+
+#inetrests {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.interest {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+.interest h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.interest p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Contact Section Styles */
+/* Contact Me Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-card {
+    background-color: #dddbdb;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    max-width: 300px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-label {
+    font-weight: bold;
+    color: #ac1616;
+}
+
+.no-link {
+    text-decoration: none;
+    color: #3498db;
+    cursor: default; /* Add this line to remove the link cursor */
+}
+
+
+/* ... (Footer Styles remain the same) */
+
+
+/* Add this to your existing style.css or create a new one */
+
+/* ... (Previous CSS styles remain the same) */
+
+/* Navigation Styles */
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: #007acc;
-    padding: 10px;
+    align-items: center;
+    padding: 0;
 }
 
-nav ul li {
+nav li {
     margin: 0 10px;
 }
 
 nav a {
-    color: #fff;
     text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Set your preferred background color */
+    color: #fff; /* Text color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-section {
-    padding: 20px;
+nav a:hover {
+    background-color: #45a049; /* Change the background color on hover */
 }
 
-h1, h2, h3 {
-    margin-bottom: 10px;
-}
-
-.project {
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    background-color: #fff;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #007acc;
-    color: #fff;
-}
+/* ... (Rest of your styles remain the same) */
